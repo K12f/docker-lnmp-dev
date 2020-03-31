@@ -1,9 +1,9 @@
 # docker-lnmp
 
-docker线下开发环境，包含 php+mysql,可配置ssl证书
+docker线下开发环境，包含 linux+nginx+mysql+php+redis,可配置ssl证书
 
 ## How to use?
-- 1.多项目配置, 复制并修改./services/nginx/conf.d/api.qizuang.com.conf 中 root配置对应的项目位置
+- 1.多项目配置, 复制并修改./services/nginx/conf.d/a.conf 中 root配置对应的项目位置
 - 2.确保 ./services/php/extensions/install.sh 的换行方式 为 LF(UNIX)
 - 3.命令行中输入 docker-compose up ,都成功即可
 
